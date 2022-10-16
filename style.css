@@ -53,8 +53,16 @@ a:hover {
 }
 
 .text {
-    font-size: 20px;
+    font-size: 20px!important;
     font-weight: bold;
+}
+
+.avis {
+    font-style: italic;
+}
+
+.signature {
+    font-size: 20px;
 }
 
 .bloc-sm {
