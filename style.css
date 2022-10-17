@@ -345,10 +345,7 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
