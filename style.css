@@ -668,7 +668,8 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1280px;
+    width: 90%;
 }
 
 .hero-bloc-text {
@@ -756,9 +757,18 @@ h4 {
     margin-bottom: 24px;
 }
 
+.img-responsive {
+    height: 270px;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+.display_flex {
+    display: flex;
+    align-items: flex-start;
 }
 
 .avatar {
@@ -766,7 +776,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #754A20;
+    background-color: #754A20!important;
     padding: 40px 40px 40px 40px;
     opacity: 0.85;
 }
