@@ -337,7 +337,7 @@ a:hover {
     padding: 20%;
 }
 
-.nav-a :hover {
+.nav-a:hover {
     background-color: #eee;
     cursor: pointer;
 }
