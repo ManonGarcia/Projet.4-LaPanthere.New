@@ -300,18 +300,46 @@ a:hover {
     font-size: 32px;
 }
 
+.nav-container {
+    width: 85%;
+    margin: auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+.link-img {
+    width: 18%;
+}
+
+.nav-list {
+    width: 12%;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-li {
+    text-decoration: none;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
 }
 
 .navbar-brand {
-    height: auto;
-    padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
+    width: 100%;
+    display: flex;
 }
 
 .navbar-brand img {
