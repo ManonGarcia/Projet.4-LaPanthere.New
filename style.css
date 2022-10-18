@@ -335,19 +335,32 @@ a:hover {
     z-index: 1;
 }
 
+.flex-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
 
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+}
+
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
     font-weight: bold;
 }
 
@@ -666,6 +679,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    text-decoration: none;
 }
 
 .container {
