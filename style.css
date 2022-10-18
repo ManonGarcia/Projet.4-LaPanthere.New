@@ -301,7 +301,7 @@ a:hover {
 }
 
 .nav-container {
-    width: 85%;
+    width: 90%;
     margin: auto;
 }
 
@@ -329,7 +329,17 @@ a:hover {
 }
 
 .nav-li {
+    width: 100%;
+}
+
+.nav-a {
     text-decoration: none;
+    padding: 20%;
+}
+
+.nav-a :hover {
+    background-color: #eee;
+    cursor: pointer;
 }
 
 .navbar {
