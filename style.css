@@ -770,6 +770,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
