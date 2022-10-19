@@ -48,6 +48,18 @@ a:hover {
     padding: 100px 50px;
 }
 
+.bloc-6-title {
+    padding: 6% 0;
+}
+
+.bloc-6-pad {
+    padding-left: 12%;
+}
+
+.bloc-6-tc {
+    color: #7a0202!important;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -771,7 +783,7 @@ p {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fcbd9f;
 }
 
 h2 {
