@@ -913,11 +913,29 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.bg-presentation {
+.bg-presentation::before {
+    content: "";
     background-image: url("img/image-de-presentation.bmp");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.position-txt-b5 {
+    position: relative;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
