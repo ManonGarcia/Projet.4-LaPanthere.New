@@ -666,7 +666,7 @@ h4 {
 }
 .bg-banniere {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -681,15 +681,30 @@ h4 {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
+    opacity: 0.6;
 }
 .position-txt-b5 {
     position: relative;
     text-align: center;
 }
+
 .bg-presentation {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-presentation::before {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+.position-txt-b3 {
+    position: relative;
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
