@@ -697,7 +697,15 @@ h4 {
     justify-content: center;
 }
 .bg-presentation::before {
+    content: "";
     background-image: url("img/image-de-presentation.bmp");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
 }
 
 .position-txt-b3 {
