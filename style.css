@@ -713,6 +713,11 @@ h4 {
     text-align: center;
 }
 
+.bg-img-form {
+    background-image: url("img/data_30_clipart-smartphone-26.jpg");
+}
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
