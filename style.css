@@ -750,6 +750,12 @@ h4 {
 
 .form-btn {
     position: relative;
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+.form-btn:hover {
+    font-size: 18px;
 }
 
 .form-position {
