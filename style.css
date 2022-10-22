@@ -714,10 +714,29 @@ h4 {
 }
 
 .bg-img-form {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img-form::before {
+    content: "";
     background-image: url("img/42-426046_lock-in-a-slow-mo-masterpiece-samsung-galaxy.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 180vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.form-flex {
+    position: relative;
+    text-align: center;
 }
 
 
