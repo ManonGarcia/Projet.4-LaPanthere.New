@@ -399,11 +399,15 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+
+.form-txt-area {
     width: 271px;
     height: 115px;
     max-width: 271px;
     max-height: 130px;
 }
+
 .scrollToTop {
     width: 40px;
     height: 40px;
