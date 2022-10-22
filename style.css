@@ -399,6 +399,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 271px;
+    height: 115px;
+    max-width: 271px;
+    max-height: 130px;
 }
 .scrollToTop {
     width: 40px;
@@ -719,7 +723,6 @@ h4 {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .bg-img-form::before {
@@ -746,9 +749,10 @@ h4 {
 }
 
 .form-position {
-    width: 35%;
+    width: 34%;
     margin-left: 20%;
     margin-bottom: 5%;
+    max-height: 555px;
 }
 
 .img-phone {
@@ -769,7 +773,12 @@ h4 {
 }
 
 .flex-map {
-    
+    margin-right: 3%;
+}
+
+.address {
+    font-size: 1.1em;
+    margin-bottom: 5%;
 }
 
 @media (max-width: 1024px) {
