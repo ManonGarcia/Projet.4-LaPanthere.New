@@ -773,14 +773,14 @@ h4 {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 10%;
+    left: 15%;
 }
 
 .form-flex {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 16%;
+    margin-bottom: 12%;
 }
 
 .form-btn {
@@ -795,8 +795,7 @@ h4 {
 
 .form-position {
     width: 34%;
-    margin-left: 21%;
-    margin-bottom: 5%;
+    margin-left: 18%;
     max-height: 555px;
 }
 
