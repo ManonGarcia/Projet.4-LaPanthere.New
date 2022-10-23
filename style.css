@@ -42,6 +42,7 @@ a:hover {
 }
 .bloc-6-title {
     padding: 6% 0;
+    position: relative;
 }
 .bloc-6-pad {
     padding-left: 12%;
@@ -524,7 +525,6 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     text-decoration: none;
 }
 .container {
-    max-width: 1280px;
     width: 90%;
 }
 .hero-bloc-text {
@@ -568,7 +568,7 @@ p {
 
 .bg-img-bloc6 {
     position: relative;
-    height: 65vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -583,6 +583,9 @@ p {
     right: 0;
     bottom: 0;
     left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .25;
 }
 
 .bgc-main-orange {
