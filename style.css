@@ -414,13 +414,17 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 1;
+    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, .6);
+}
+.showScrollTop {
+    font-size: 14px;
+    opacity: 1;
 }
 .scrollToTop:hover {
     width: 40px;
