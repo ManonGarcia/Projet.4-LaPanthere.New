@@ -770,6 +770,7 @@ h4 {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-left: 5%;
 }
 
 .bg-img-form::before {
@@ -794,6 +795,7 @@ h4 {
 .btn-form {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .form-btn {
@@ -807,7 +809,7 @@ h4 {
 }
 
 .form-position {
-    width: 34%;
+    width: 35%;
     margin-left: 18%;
     max-height: 555px;
 }
@@ -831,6 +833,10 @@ h4 {
 
 .flex-map {
     margin-right: 3%;
+    padding: 2%;
+    border: 2px solid #fcbd9f;
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 10px 0px #fcbd9f;
 }
 
 .address {
