@@ -566,19 +566,33 @@ p {
     margin: auto auto auto auto;
 }
 
-.bgc-atomic-tangerine {
-    background-image: url("img/ux-designer.jpg");
+.bg-img-bloc6 {
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.bgc-orange {
+.bg-img-bloc6::before {
+    content: "";
+    background-image: url("img/ux-designer.jpg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bgc-main-orange {
     background-color: #fce7dc;
 }
 
-/*
-.bgc-atomic-tangerine {
+.bgc-footer {
     background-color: #fcbd9f;
 }
-*/
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
