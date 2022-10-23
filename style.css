@@ -603,6 +603,10 @@ p {
     background-color: #fcbd9f;
 }
 
+.txt-footer {
+    text-align: center;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
