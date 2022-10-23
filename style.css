@@ -26,7 +26,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -410,22 +409,24 @@ button {
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .6);
 }
-.scrollToTop span {
-    margin-top: 6px;
+.scrollToTop:hover {
+    width: 40px;
+    height: 40px;
 }
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
+
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -525,7 +526,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     text-decoration: none;
 }
 .container {
-    width: 90%;
+    width: 100%;
 }
 .hero-bloc-text {
     font-size: 38px;
@@ -564,6 +565,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .bg-img-bloc6 {
@@ -798,9 +801,9 @@ h4 {
 }
 
 .img-phone {
-    margin-left: 75%;
-    margin-top: -14%;
-    width: 20%;
+    margin-left: 70%;
+    margin-top: -10%;
+    width: 15%;
 }
 
 .bloc-form-b7 {
