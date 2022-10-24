@@ -717,7 +717,7 @@ h4 {
 }
 .bg-banniere {
     position: relative;
-    height: 65vh;
+    height: 55vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -741,7 +741,7 @@ h4 {
 
 .bg-presentation {
     position: relative;
-    height: 90vh;
+    height: 72vh;
     width: 100%;
     display: flex;
     align-items: center;
