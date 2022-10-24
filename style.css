@@ -749,7 +749,7 @@ h4 {
 }
 .bg-presentation::before {
     content: "";
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
     background-size: cover;
     position: absolute;
     top: 0px;
