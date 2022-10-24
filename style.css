@@ -37,7 +37,7 @@ a:hover {
     padding-right: 0;
 }
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 10%;
 }
 .bloc-6-title {
     padding: 6% 0;
@@ -48,6 +48,7 @@ a:hover {
 }
 .bloc-6-tc {
     color: #7a0202!important;
+    font-size: 18px;
 }
 .bloc-md {
     padding: 50px;
@@ -575,7 +576,7 @@ p {
 
 .bg-img-bloc6 {
     position: relative;
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -818,6 +819,10 @@ h4 {
     margin-left: 70%;
     margin-top: -10%;
     width: 15%;
+}
+
+.span-form {
+    color: cornflowerblue;
 }
 
 .bloc-form-b7 {
