@@ -711,10 +711,10 @@ h4 {
     border-color: #364577!important;
 }
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.jpg");
 }
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.jpg");
 }
 .bg-banniere {
     position: relative;
@@ -750,7 +750,7 @@ h4 {
 }
 .bg-presentation::before {
     content: "";
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.jpg");
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -776,7 +776,7 @@ h4 {
 
 .bg-img-form::before {
     content: "";
-    background-image: url("img/kissclipart-android-phone-logo-clipart-android-smartphone-988c2d0ebe457423.png");
+    background-image: url("img/kissclipart-android-phone-logo-clipart-android-smartphone-988c2d0ebe457423.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
