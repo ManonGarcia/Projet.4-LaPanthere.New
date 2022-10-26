@@ -6,30 +6,29 @@
 if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requires jQuery"); + function(a) {
     "use strict";
     var b = a.fn.jquery.split(" ")[0].split(".");
-    if (b[0] < 2 && b[1] < 9 || 1 == b[0] && 9 == b[1] && b[2] < 1) throw new Error("Bootstrap's JavaScript requires jQuery version 1.9.1 or higher")
+if (b[0] < 2 && b[1] < 9 || 1 == b[0] && 9 == b[1] && b[2] < 1) throw new Error("Bootstrap's JavaScript requires jQuery version 1.9.1 or higher")
 }(jQuery), + function(a) {
     "use strict";
-
-    function b() {
-        var a = document.createElement("bootstrap"),
-            b = {
-                WebkitTransition: "webkitTransitionEnd",
-                MozTransition: "transitionend",
-                OTransition: "oTransitionEnd otransitionend",
-                transition: "transitionend"
-            };
-        for (var c in b)
-            if (void 0 !== a.style[c]) return {
-                end: b[c]
-            };
-        return !1
-    }
-    a.fn.emulateTransitionEnd = function(b) {
-        var c = !1,
-            d = this;
-        a(this).one("bsTransitionEnd", function() {
-            c = !0
-        });
+function b() {
+    var a = document.createElement("bootstrap"),
+        b = {
+        WebkitTransition: "webkitTransitionEnd",
+        MozTransition: "transitionend",
+        OTransition: "oTransitionEnd otransitionend",
+        transition: "transitionend"
+        };
+    for (var c in b)
+        if (void 0 !== a.style[c]) return {
+            end: b[c]
+        };
+    return !1
+}
+a.fn.emulateTransitionEnd = function(b) {
+    var c = !1,
+        d = this;
+    a(this).one("bsTransitionEnd", function() {
+        c = !0
+    });
         var e = function() {
             c || a(d).trigger(a.support.transition.end)
         };
