@@ -195,12 +195,14 @@ a:hover {
 }
 .nav-li {
     width: 100%;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
 }
 .nav-a {
     text-decoration: none;
-    padding: 20%;
 }
-.nav-a:hover {
+.nav-li:hover {
     background-color: #eee;
     font-weight: bold;
     cursor: pointer;
