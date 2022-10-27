@@ -192,6 +192,7 @@ a:hover {
     justify-content: space-between;
     padding: 0;
     list-style-type: none;
+    font-size: 16px;
 }
 .nav-li {
     width: 100%;
@@ -564,7 +565,7 @@ p {
 
 .bg-img-bloc6::before {
     content: "";
-    background-image: url("img/ux-designer.jpg");
+    background-image: url("img/travailler-en-equipe-de-maniere-collaborative.jpg");
     position: absolute;
     top: 0;
     right: 0;
