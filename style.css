@@ -47,8 +47,11 @@ a:hover {
     padding-left: 12%;
 }
 .bloc-6-tc {
-    color: #7a0202!important;
-    font-size: 18px;
+    color: white!important;
+    font-size: 24px;
+}
+.bloc-6-hc {
+    color: #F3976C;
 }
 .bloc-md {
     padding: 50px;
@@ -203,7 +206,7 @@ a:hover {
     text-decoration: none;
     padding: 20%;
 }
-.nav-a:hover {
+.nav-a:hover .nav-li{
     background-color: #eee;
     font-weight: bold;
     cursor: pointer;
@@ -514,7 +517,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     width: 100%;
 }
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 50px;
 }
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -532,8 +535,7 @@ p {
     font-size: 14px;
 }
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    margin: 0 6%;
 }
 .h1 {
     font-size: 20px;
