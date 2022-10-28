@@ -52,7 +52,7 @@ a:hover {
     margin: 0 6%;
 }
 .bloc-6-hc {
-    color: #F3976C;
+    color: #F3976C!important;
 }
 .bloc-md {
     padding: 50px;
@@ -520,9 +520,6 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
 .hero-bloc-text {
     font-size: 50px;
 }
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -577,7 +574,7 @@ p {
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .25;
+    opacity: .85;
 }
 
 .bgc-main-orange {
