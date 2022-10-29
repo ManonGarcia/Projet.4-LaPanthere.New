@@ -929,4 +929,43 @@ h4 {
     .tc-h2-b5 {
         margin: 0 20%;
     }
+    .bg-img-bloc6 {
+        height: 35vh;
+        width: 100%;
+        padding: 0;
+    }
+    .bloc-6-pad {
+        padding-left: 3%;
+    }
+    .bloc-6-hc {
+        font-size: 30px;
+    }
+    .bloc-6-tc {
+        font-size: 18px;
+        margin: 10px;
+    }
+    .img-phone {
+        display: none;
+    }
+    .bloc-form {
+        padding: 0;
+    }
+    .flex-b7 {
+        flex-direction: column;
+
+    }
+    .bg-img-form {
+        margin-left: 12%;
+        margin-top: 15%;
+    }
+    .bg-img-form::before {
+        left: 0;
+    }
+    .form-position {
+        width: 65%;
+        margin: 7%;
+    }
+    .flex-map {
+        margin: 15% 2%;
+    }
 }
