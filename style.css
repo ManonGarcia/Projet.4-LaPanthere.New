@@ -103,9 +103,6 @@ a:hover {
 .d-bloc .a-btn:hover, .d-bloc .navbar a:hover, .d-bloc .navbar-brand:hover, .d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
 .d-bloc .btn-wire, .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
@@ -149,9 +146,6 @@ a:hover {
 }
 .d-bloc .panel .a-btn:hover, .l-bloc .a-btn:hover, .l-bloc .navbar a:hover, .l-bloc .navbar-brand:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
-}
-.l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
 }
 .d-bloc .panel .btn-wire, .d-bloc .panel .btn-wire:hover, .l-bloc .btn-wire, .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
@@ -252,18 +246,6 @@ a:hover {
 }
 .nav > li a:hover, .nav > li a:focus {
     font-weight: bold;
-}
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-    display: none;
-}
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
 }
 .nav-invert .navbar .nav {
     float: left;
@@ -887,6 +869,43 @@ h4 {
         padding-right: constant(safe-area-inset-right);
    }
 }
-@media screen (max-width: 767px) {
-    
+@media screen and (max-width: 767px) {
+    .nav-logo {
+        flex-direction: column;
+        padding: 6% 0 2% 0;
+    }
+    .link-img {
+        width: auto;
+    }
+    .nav-list {
+        width: 50%;
+    }
+    .nav-ul {
+        margin-top: 10px;
+    }
+    .bg-banniere {
+        height: 35vh;
+    }
+    .bloc-2 {
+        padding: 3%;
+    }
+    .bloc-2-avis {
+        margin-top: 30px;
+    }
+    .avis, .signature {
+        font-size: 18px!important;
+    }
+    .bg-presentation {
+        height: 84vh;
+        padding: 0;
+    }
+    .bg-presentation::before {
+        background-image: none;
+    }
+    .black-background {
+        padding: 15px;
+    }
+    .bloc-3-btn {
+        margin: 0;
+    }
 }
