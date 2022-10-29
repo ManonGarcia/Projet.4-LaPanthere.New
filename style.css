@@ -917,4 +917,16 @@ h4 {
     .bloc-4-bloc {
         margin-bottom: 30px;
     }
+    .scrollToTop {
+        width: 30px;
+        height: 30px;
+        bottom: 10px;
+        right: 5px;
+    }
+    .tc-red {
+        margin-bottom: 6%;
+    }
+    .tc-h2-b5 {
+        margin: 0 20%;
+    }
 }
