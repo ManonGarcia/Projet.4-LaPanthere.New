@@ -207,7 +207,7 @@ a:hover {
     text-decoration: none;
     padding: 20%;
 }
-.nav-a:hover .nav-li{
+.nav-li:hover, .nav-a:hover {
     background-color: #eee;
     font-weight: bold;
     cursor: pointer;
@@ -407,6 +407,7 @@ button {
     justify-content: center;
     background: #e6e3e3!important;
     color: white!important;
+    border-radius: 8px;
 }
 .showScrollTop {
     font-size: 14px;
@@ -691,12 +692,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 .bg-banniere {
     position: relative;
