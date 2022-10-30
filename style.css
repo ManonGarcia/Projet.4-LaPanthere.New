@@ -732,7 +732,7 @@ h4 {
 
 .bg-img-form {
     position: relative;
-    height: 100vh;
+    height: 700px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -784,7 +784,8 @@ h4 {
 .img-phone {
     margin-left: 70%;
     margin-top: -15%;
-    width: 15%;
+    width: 201px;
+    height: 178px;
 }
 
 .span-form {
@@ -808,6 +809,10 @@ h4 {
     border: 2px solid #fcbd9f;
     border-radius: 30px;
     box-shadow: inset 0px 0px 10px 0px #fcbd9f;
+}
+.map {
+    width: 594px;
+    height: 392px;
 }
 
 .img-map:hover map {
