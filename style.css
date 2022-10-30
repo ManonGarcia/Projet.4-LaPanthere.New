@@ -550,7 +550,7 @@ p {
 
 .bg-img-bloc6::before {
     content: "";
-    background-image: url("img/logiciels-de-suivi-des-temps.jpg");
+    background-image: url("img/logiciels-de-suivi-des-temps.webp");
     position: absolute;
     top: 0;
     right: 0;
@@ -685,7 +685,7 @@ h4 {
 }
 .bg-banniere::before {
     content: "";
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -709,7 +709,7 @@ h4 {
 }
 .bg-presentation::before {
     content: "";
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -738,7 +738,7 @@ h4 {
 
 .bg-img-form::before {
     content: "";
-    background-image: url("img/kissclipart-android-phone-logo-clipart-android-smartphone-988c2d0ebe457423.png");
+    background-image: url("img/kissclipart-android-phone-logo-clipart-android-smartphone-988c2d0ebe457423.webp");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -967,5 +967,11 @@ h4 {
     }
     .flex-map {
         margin: 15% 2%;
+    }
+    .map {
+        width: 100%;
+    }
+    .bgc-footer {
+        padding: 0;
     }
 }
