@@ -544,7 +544,7 @@ p {
 
 .bg-img-bloc6 {
     position: relative;
-    height: 50vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -781,13 +781,6 @@ h4 {
     max-height: 555px;
 }
 
-.img-phone {
-    margin-left: 70%;
-    margin-top: -15%;
-    width: 201px;
-    height: 178px;
-}
-
 .span-form {
     color: cornflowerblue;
 }
@@ -809,10 +802,6 @@ h4 {
     border: 2px solid #fcbd9f;
     border-radius: 30px;
     box-shadow: inset 0px 0px 10px 0px #fcbd9f;
-}
-.map {
-    width: 594px;
-    height: 392px;
 }
 
 .img-map:hover map {
@@ -952,9 +941,6 @@ h4 {
     .bloc-6-tc {
         font-size: 18px;
         margin: 10px;
-    }
-    .img-phone {
-        display: none;
     }
     .bloc-form {
         padding: 0;
