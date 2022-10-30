@@ -255,6 +255,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.img-header {
+    width: 100%;
+}
 @media (min-width: 768px) {
     .nav > li .dropdown-menu a, .nav > li .dropdown-menu a:hover {
         color: #484848;
