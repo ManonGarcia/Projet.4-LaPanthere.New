@@ -876,6 +876,7 @@ h4 {
     }
     .link-img {
         width: auto;
+        text-align: center;
     }
     .nav-list {
         width: 50%;
@@ -973,5 +974,11 @@ h4 {
     }
     .bgc-footer {
         padding: 0;
+    }
+    .img-header {
+        width: 75%;
+    }
+    .bloc-4-h2 {
+        margin: 2% 10%;
     }
 }
