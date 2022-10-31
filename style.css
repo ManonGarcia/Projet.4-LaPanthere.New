@@ -965,6 +965,7 @@ h4 {
     }
     .map {
         width: 100%;
+        object-fit: cover;
     }
     .bgc-footer {
         padding: 0;
