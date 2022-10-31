@@ -866,6 +866,9 @@ h4 {
         padding-right: constant(safe-area-inset-right);
    }
 }
+@media screen and (min-width: 450px) and (max-width: 766px) {
+    
+}
 @media screen and (max-width: 767px) {
     .nav-logo {
         flex-direction: column;
