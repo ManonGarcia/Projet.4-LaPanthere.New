@@ -776,7 +776,7 @@ h4 {
 }
 
 .form-position {
-    width: 36%;
+    width: 275px;
     margin-left: 20%;
     max-height: 555px;
 }
@@ -866,7 +866,8 @@ h4 {
         padding-right: constant(safe-area-inset-right);
    }
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 800px) {
     .nav-logo {
         flex-direction: column;
         padding: 6% 0 2% 0;
@@ -957,7 +958,7 @@ h4 {
         left: 0;
     }
     .form-position {
-        width: 65%;
+        width: 275px;
         margin: 7%;
     }
     .flex-map {
@@ -976,4 +977,24 @@ h4 {
     .bloc-4-h2 {
         margin: 2% 10%;
     }
+}
+
+@media screen and (min-width: 550px) and (max-width: 800px) {
+    .bloc-form-b7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bg-img-form {
+        margin-top: 10%;
+    }
+    .form-position {
+        margin: 5%;
+    }
+    .form-btn {
+        margin: auto;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    
 }
