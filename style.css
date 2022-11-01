@@ -813,24 +813,6 @@ h4 {
     margin-bottom: 5%;
 }
 
-@media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-   }
-    .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-   }
-}
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80% 
-   }
-    .nav-center.navbar .nav {
-        max-width: 100% 
-   }
-}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
@@ -866,9 +848,6 @@ h4 {
         padding-right: constant(safe-area-inset-right);
    }
 }
-@media screen and (min-width: 450px) and (max-width: 766px) {
-    
-}
 
 @media screen and (max-width: 800px) {
     .nav-logo {
@@ -884,7 +863,7 @@ h4 {
     }
     .nav-ul {
         margin: 2%;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .nav-li {
         width: 25%;
@@ -896,13 +875,19 @@ h4 {
         height: 40vh;
     }
     .bloc-2 {
-        padding: 3%;
+        padding: 3% 8%;
     }
     .bloc-2-avis {
         margin-top: 30px;
     }
     .avis, .signature {
         font-size: 18px!important;
+    }
+    .signature {
+        margin: 5% 0;
+    }
+    .tight-width-whitespace {
+        max-width: 100%;
     }
     .bg-presentation {
         height: 84vh;
@@ -1006,16 +991,51 @@ h4 {
     }
 }
 @media screen and (min-width: 801px) and (max-width: 1200px) {
-    
-}
-@media screen and (max-width: 549px) {
-    .img-header {
-        width: 75%;
+    .link-img {
+        width: 30%;
     }
     .nav-list {
+        width: 20%;
+    }
+    .bloc-6-pad {
+        width: 84%;
+        padding-left: 5%;
+    }
+    .bloc-form-b7 {
         width: 100%;
     }
-    .bg-img-bloc6 {
-        height: 30vh;
+    .bg-img-form {
+        margin-left: 4%;
+    }
+    .form-position {
+        margin: 30% 8%;
+    }
+    .flex-map {
+        width: 100%;
+        margin-right: 3%;
+    }
+    .map {
+        width: 100%;
+    }
+    .bg-presentation {
+        height: 75vh;
+    }
+    .display_flex {
+        margin: 1%;
+    }
+    .portfolio-row {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 549px) {
+    .bg-img-form {
+        margin-left: 15%;
+    }
+    .form-position {
+        margin: 25% 7%;
+    }
+    .txt-footer {
+        width: 60%;
+        margin: 3% auto;
     }
 }
