@@ -81,31 +81,32 @@
 			<div class="col-sm-6 bg-img-form form-group">
 				<form id="form_1" class="form-position" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-flex">
-						<label>
+						<label for="name">
 							<span class="fa-solid fa-circle-user span-form"></span>
 							Nom
 						</label>
-						<input id="name" class="form-control" required>
+						<input id="name" class="form-control" type="text" required>
 					</div>
 					<div class="form-flex">
-						<label>
+						<label for="email">
 							<span class="fa-solid fa-at span-form"></span>
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required>
 					</div>
 					<div class="form-flex">
-						<label>
+						<label for="input_504">
 							<span class="fa-solid fa-users-rectangle span-form"></span>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504">
+						<input class="form-control" type="text" required id="input_504">
 					</div>
 					<div class="form-flex">
-						<label>
+						<label for="message">
 							<span class="fa-solid fa-clipboard span-form"></span>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control form-txt-area" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control form-txt-area" rows="4" cols="50" required></textarea>
 					</div>
 					<div class="btn-form">
 						<button class="btn cta-hero btn-atomic-tangerine form-btn" type="submit">
